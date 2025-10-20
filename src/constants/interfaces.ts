@@ -1,6 +1,6 @@
 interface SignInReqInterface {
-  name: String;
-  title: String;
+  email: String;
+  pass: String;
 }
 
 export { SignInReqInterface };

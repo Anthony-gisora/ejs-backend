@@ -1,9 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
+    <title>Login Page</title>
   </head>
   <body>
-    <h1>Hello <%= name %></h1>
+    <h1>Hello, welcome...</h1>
+    <form action="/" method="post">
+      <label>Email: </label>
+      <input
+        class="email"
+        type="email"
+        name="email"
+        placeholder="abc@gmail.com"
+      />
+      <label>Password: </label>
+      <input class="password" name="pass" type="password" placeholder="****" />
+      <button class="login">Login</button>
+    </form>
   </body>
 </html>
